@@ -1,0 +1,108 @@
+
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+  
+        .navbar .nav-link {
+          color: #fff !important;
+        }        
+
+        .navbar  {
+          transition: all 0.25s;  
+          padding: 12px;
+          box-shadow: none;
+        }
+
+        .navbar:not(.navbar-transparent) {
+          background-color: #1F2121;
+          padding: 5px;
+        }
+
+        #intro {
+            height: 855px;
+        }
+
+        .h3, h3 {
+            font-weight: 700;
+        }
+
+      </style>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top navbar-transparent" style="z-index: 2000;">
+    <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="#">
+        LSST Informatics & Statistics Science Collaboration
+        </a>
+
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#about">Home</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#" rel="nofollow"
+                target="_blank">Organization</a>
+            </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank">Join</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar -->
+
+<!-- Background image -->
+<section
+id="intro"
+class="text-center bg-image home-parallax home-fade home-section"
+style="background-image: url('assets/background.png'); 
+       background-color: #363333;
+       background-position: center; background-repeat: no-repeat; background-size: cover;
+       z-index: 0;"
+
+>
+<div  class="mask bg-image" style="background-image: url('assets/foreground.png'); 
+                                   background-attachment: inherit;
+                                   ">
+    <div class="d-flex justify-content-center align-items-center h-100 caption-content vertical-align: middle;" >
+    <div class="text-white">
+        <h3 class="white-text"><span style="color: #F5F5F5;" >Vera C. Rubin</span> <span style="color: #009FA1; font-weight: 400;">Observatory</span>
+            <span style="display: inline-block; font-weight: 300; font-style: italic;">Legacy Survey of Space and Time</span></h3>
+        <h1 class="display-4 font-weight-bold white-text mb-2" style="font-weight: 400;">Informatics & Statistics Science Collaboration</h2>
+        <a class="btn btn-outline-light section-scroll" href="#about">Learn More</a>
+    </div>
+    </div>
+</div>
+</section>
+<!-- Background image -->
