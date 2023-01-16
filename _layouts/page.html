@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+<!--Main Navigation-->
+ <header>
+    {% include navbar.html %}
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main style="z-index: 1; 
+  position: relative;">
+    <div class="container" >
+      {{ content }}
+    </div>
+  </main>
+  <!--Main layout-->
+
+{% include footer.html %}

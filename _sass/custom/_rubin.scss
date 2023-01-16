@@ -1,0 +1,29 @@
+// -------------------------
+// Rubin Colors and Typography
+// See https://gallery.lsst.org/bp/#/brandguidelines/2206/section/17290
+// ------------------------- 
+// Download rubin fonts, Source Sans Pro (old one) and Source Sans 3 (newer but doesnt work on chrome)
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+// Primary Colors
+$rubin-teal-light: #00babc;
+$rubin-teal-dark: #058B8C;
+$rubin-dark: #313333;
+$rubin-light: #F5F5F5;
+// Secondary colors
+$rubin-teal-1: #D9F7F6;
+$rubin-teal-2: #B1F2EF;
+$rubin-teal-3: #009FA1;
+$rubin-teal-4: #0C4A47;
+$rubin-gray-1: #DCE0E3;
+$rubin-gray-2: #6A6E6E;
+$rubin-gray-3: #1F2121;
+// Accent colors
+$rubin-accent-red: #ed4c4c;
+$rubin-accent-orange: #fab364;
+$rubin-accent-yellow: #ffe266;
+$rubin-accent-green: #3cae3f;
+$rubin-accent-blue: #1c81a4;
+$rubin-accent-purple: #583671;
+// Rubin Typography
+$rubin-font-family: 'Source Sans Pro', sans-serif;
