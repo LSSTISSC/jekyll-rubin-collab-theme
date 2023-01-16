@@ -1,0 +1,13 @@
+.navbar  {
+    padding: 12px;
+    box-shadow: none;
+  }
+
+  .navbar:not(.navbar-transparent) {
+    background-color: #1F2121;
+    padding: 5px;
+  }
+
+  #intro {
+      height: 855px;
+  }

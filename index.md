@@ -1,85 +1,113 @@
 ---
 title: Home
 layout: home
+category: Home
 ---
 
-# About
+<!--Main layout-->
+<!--Section: Content-->
+<section class="pt-4">
+    <div class="row">
+    <div class="col-md-6 gx-5 mb-4">
+        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+        <img src="https://mdbootstrap.com/img/new/slides/031.jpg" class="img-fluid" />
+        <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+        </div>
+    </div>
 
-This is my first post. I hope you like it!
+    <div class="col-md-6 gx-5 mb-4">
+        <h4><strong>Facilis consequatur eligendi</strong></h4>
+        <p class="text-muted">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
+        eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
+        sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+        </p>
+        <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
+        <p class="text-muted">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
+        nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
+        alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+        </p>
+    </div>
+    </div>
+</section>
+<!--Section: Content-->
 
-## This is a subheading
-
-Here is some code:
-
-```python
-def hello_world():
-    print("Hello world!")
-```
-
-Here is a list:
-
-- Item 1
-- Item 2
-- Item 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at leo sapien. Praesent pulvinar justo eget magna laoreet, a viverra lectus vestibulum. Suspendisse potenti. Curabitur luctus augue eu velit pulvinar, vitae interdum leo consectetur. Vestibulum rutrum, purus at pretium ullamcorper, mauris nisl gravida massa, non ullamcorper erat magna in magna. Donec imperdiet eu eros nec dignissim. Maecenas quis consectetur elit, sit amet fermentum risus. Curabitur a tincidunt lorem, quis dictum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna non enim volutpat eleifend at quis leo.
-
-In ac laoreet nunc. Aenean porta fermentum sapien, mattis sollicitudin augue condimentum eget. Ut viverra tincidunt nunc nec bibendum. Morbi pulvinar mi nibh, id tempor erat varius vitae. Sed vitae dictum purus. Nulla egestas tortor enim. Sed dolor dui, interdum nec turpis eu, sodales aliquet dui.
-
-Fusce sollicitudin, felis eu aliquet mattis, mi nibh vulputate tellus, eget sagittis mauris metus quis velit. Sed at neque in lectus dignissim malesuada vel quis ex. Quisque sem ligula, varius vitae feugiat et, vehicula in lorem. Phasellus eu nibh dolor. Aenean blandit tellus iaculis ante molestie posuere. Fusce felis quam, congue nec interdum quis, vehicula ut erat. Sed in venenatis risus. Proin nec lectus efficitur, scelerisque leo vel, rhoncus velit. Nunc lacus elit, ultricies ac consequat ac, posuere eget augue. Vivamus volutpat ante justo, et venenatis dolor accumsan ac.
-
-Nunc quis tristique velit. Donec id ex aliquet, aliquet mauris vehicula, semper quam. Nunc consequat fringilla efficitur. In arcu urna, pellentesque a luctus non, egestas at dui. Mauris quis ante et velit porttitor volutpat et sed nunc. Pellentesque iaculis rutrum faucibus. In vel arcu ac ligula laoreet aliquet sed sit amet libero. Donec nunc ante, auctor a facilisis nec, tempor nec enim.
-
-Nam nec arcu molestie quam accumsan tempor eu sit amet leo. Fusce fermentum ligula id mi mollis fringilla. Aenean tristique tortor sed neque vulputate, quis viverra neque blandit. Mauris ullamcorper elementum dolor at aliquet. Morbi pretium augue sit amet libero cursus gravida. Aliquam faucibus odio ac interdum tempor. Nunc bibendum lobortis lacus, non euismod sem aliquet quis.
-
-
-## This is a subheading
-
-Here is some code:
-
-```python
-def hello_world():
-    print("Hello world!")
-```
-
-Here is a list:
-
-- Item 1
-- Item 2
-- Item 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at leo sapien. Praesent pulvinar justo eget magna laoreet, a viverra lectus vestibulum. Suspendisse potenti. Curabitur luctus augue eu velit pulvinar, vitae interdum leo consectetur. Vestibulum rutrum, purus at pretium ullamcorper, mauris nisl gravida massa, non ullamcorper erat magna in magna. Donec imperdiet eu eros nec dignissim. Maecenas quis consectetur elit, sit amet fermentum risus. Curabitur a tincidunt lorem, quis dictum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna non enim volutpat eleifend at quis leo.
-
-In ac laoreet nunc. Aenean porta fermentum sapien, mattis sollicitudin augue condimentum eget. Ut viverra tincidunt nunc nec bibendum. Morbi pulvinar mi nibh, id tempor erat varius vitae. Sed vitae dictum purus. Nulla egestas tortor enim. Sed dolor dui, interdum nec turpis eu, sodales aliquet dui.
-
-Fusce sollicitudin, felis eu aliquet mattis, mi nibh vulputate tellus, eget sagittis mauris metus quis velit. Sed at neque in lectus dignissim malesuada vel quis ex. Quisque sem ligula, varius vitae feugiat et, vehicula in lorem. Phasellus eu nibh dolor. Aenean blandit tellus iaculis ante molestie posuere. Fusce felis quam, congue nec interdum quis, vehicula ut erat. Sed in venenatis risus. Proin nec lectus efficitur, scelerisque leo vel, rhoncus velit. Nunc lacus elit, ultricies ac consequat ac, posuere eget augue. Vivamus volutpat ante justo, et venenatis dolor accumsan ac.
-
-Nunc quis tristique velit. Donec id ex aliquet, aliquet mauris vehicula, semper quam. Nunc consequat fringilla efficitur. In arcu urna, pellentesque a luctus non, egestas at dui. Mauris quis ante et velit porttitor volutpat et sed nunc. Pellentesque iaculis rutrum faucibus. In vel arcu ac ligula laoreet aliquet sed sit amet libero. Donec nunc ante, auctor a facilisis nec, tempor nec enim.
-
-Nam nec arcu molestie quam accumsan tempor eu sit amet leo. Fusce fermentum ligula id mi mollis fringilla. Aenean tristique tortor sed neque vulputate, quis viverra neque blandit. Mauris ullamcorper elementum dolor at aliquet. Morbi pretium augue sit amet libero cursus gravida. Aliquam faucibus odio ac interdum tempor. Nunc bibendum lobortis lacus, non euismod sem aliquet quis.
+<hr class="my-5" />
 
 
-## This is a subheading
+<!--Section: Content-->
+<section class="text-center">
+    <h4 class="mb-5"><strong>Facilis consequatur eligendi</strong></h4>
 
-Here is some code:
+    <div class="row">
+    <div class="col-lg-4 col-md-12 mb-4">
+        <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+            src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+            class="img-fluid"
+            />
+            <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+            </p>
+            <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+        </div>
+    </div>
 
-```python
-def hello_world():
-    print("Hello world!")
-```
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+            src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
+            class="img-fluid"
+            />
+            <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+            </p>
+            <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+        </div>
+    </div>
 
-Here is a list:
-
-- Item 1
-- Item 2
-- Item 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at leo sapien. Praesent pulvinar justo eget magna laoreet, a viverra lectus vestibulum. Suspendisse potenti. Curabitur luctus augue eu velit pulvinar, vitae interdum leo consectetur. Vestibulum rutrum, purus at pretium ullamcorper, mauris nisl gravida massa, non ullamcorper erat magna in magna. Donec imperdiet eu eros nec dignissim. Maecenas quis consectetur elit, sit amet fermentum risus. Curabitur a tincidunt lorem, quis dictum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna non enim volutpat eleifend at quis leo.
-
-In ac laoreet nunc. Aenean porta fermentum sapien, mattis sollicitudin augue condimentum eget. Ut viverra tincidunt nunc nec bibendum. Morbi pulvinar mi nibh, id tempor erat varius vitae. Sed vitae dictum purus. Nulla egestas tortor enim. Sed dolor dui, interdum nec turpis eu, sodales aliquet dui.
-
-Fusce sollicitudin, felis eu aliquet mattis, mi nibh vulputate tellus, eget sagittis mauris metus quis velit. Sed at neque in lectus dignissim malesuada vel quis ex. Quisque sem ligula, varius vitae feugiat et, vehicula in lorem. Phasellus eu nibh dolor. Aenean blandit tellus iaculis ante molestie posuere. Fusce felis quam, congue nec interdum quis, vehicula ut erat. Sed in venenatis risus. Proin nec lectus efficitur, scelerisque leo vel, rhoncus velit. Nunc lacus elit, ultricies ac consequat ac, posuere eget augue. Vivamus volutpat ante justo, et venenatis dolor accumsan ac.
-
-Nunc quis tristique velit. Donec id ex aliquet, aliquet mauris vehicula, semper quam. Nunc consequat fringilla efficitur. In arcu urna, pellentesque a luctus non, egestas at dui. Mauris quis ante et velit porttitor volutpat et sed nunc. Pellentesque iaculis rutrum faucibus. In vel arcu ac ligula laoreet aliquet sed sit amet libero. Donec nunc ante, auctor a facilisis nec, tempor nec enim.
-
-Nam nec arcu molestie quam accumsan tempor eu sit amet leo. Fusce fermentum ligula id mi mollis fringilla. Aenean tristique tortor sed neque vulputate, quis viverra neque blandit. Mauris ullamcorper elementum dolor at aliquet. Morbi pretium augue sit amet libero cursus gravida. Aliquam faucibus odio ac interdum tempor. Nunc bibendum lobortis lacus, non euismod sem aliquet quis.
+    <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+            <img
+            src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
+            class="img-fluid"
+            />
+            <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the
+            card's content.
+            </p>
+            <a href="#!" class="btn btn-primary">Button</a>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--Section: Content-->

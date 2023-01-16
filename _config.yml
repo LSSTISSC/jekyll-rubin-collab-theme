@@ -1,4 +1,16 @@
+# Site Settings
+brand: LSST Informatics & Statistics Science Collaboration
+copyright: LSST ISSC
+title: LSST Informatics & Statistics Science Collaboration
 
+# Links
+links:
+  github: https://github.com/lsstissc
+  # youtube: 
+  # twitter: 
+
+# Link to edit the website
+git_edit_address: https://github.com/lsstissc/lsstissc.github.io/blob/master
 
 sass:
   sass_dir:           _sass
