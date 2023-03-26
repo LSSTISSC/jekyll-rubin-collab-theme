@@ -11,13 +11,13 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "rubin-collab"
+gem "jekyll-rubin-collab-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: rubin-collab
+theme: jekyll-rubin-collab-theme
 ```
 
 And then execute:
@@ -26,7 +26,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rubin-collab
+    $ gem install jekyll-rubin-collab-theme
 
 ## Usage
 
