@@ -33,13 +33,18 @@
       
               {% elsif cat.name != "" %}
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                  <a class="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
                   aria-expanded="false">{{ cat.name | capitalize }}</a>
-                  <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     {% for item in items %}
-                      <a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      <li>
+                        <a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      </li>
                     {% endfor %}
-                  </div>
+                </ul>
                 </li>
               {% endif %}
             {% endfor %}
