@@ -26,9 +26,8 @@ category: Home
         </p>
         <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
         <p class="text-muted">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-        nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-        alias, unde optio accusantium soluta, iusto molestiae adipisci et?
+        We also support LaTeX \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
         </p>
     </div>
     </div>
